@@ -1,0 +1,88 @@
+/* UrlSubmit.css */
+.url-submit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  .formatted-recipe {
+    white-space: pre-wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Update to your preferred font */
+    font-size: 1rem; /* Optional: Adjust the size if needed */
+    color: #444; /* Optional: Adjust the text color */
+  }
+  
+  
+  .title {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .url-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+  }
+  
+  .url-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .submit-button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .recipe-display {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .recipe-display h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-display p {
+    color: #555;
+    line-height: 1.5;
+  }
+  
