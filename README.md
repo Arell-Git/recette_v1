@@ -37,7 +37,7 @@ recette_v1-master/
 3. Set up environment variables as needed (e.g., OpenAI API key).
 4. Start the server:
    ```bash
-   node app.js
+   npm run dev
    ```
 
 ## Frontend Setup
